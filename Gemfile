@@ -11,6 +11,8 @@ gem 'jbuilder',     '2.7.0'
 gem 'bootsnap', require: false
 gem 'msgpack', '~> 1.2', '>= 1.2.6'
 gem 'activesupport', '~> 5.2', '>= 5.2.2'
+gem 'bootstrap-sass', '~> 3.4.0'
+gem 'sassc-rails', '>= 2.0.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
