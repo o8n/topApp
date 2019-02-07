@@ -1,0 +1,53 @@
+current directory: /Users/m_okamoto/toy_app/vendor/gems/msgpack-1.2.6/ext/msgpack
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190207-48403-1tdxr24.rb extconf.rb
+Ignoring bootsnap-1.3.2 because its extensions are not built.  Try: gem pristine bootsnap --version 1.3.2
+Ignoring byebug-10.0.2 because its extensions are not built.  Try: gem pristine byebug --version 10.0.2
+Ignoring byebug-9.0.6 because its extensions are not built.  Try: gem pristine byebug --version 9.0.6
+Ignoring ffi-1.10.0 because its extensions are not built.  Try: gem pristine ffi --version 1.10.0
+Ignoring ffi-1.9.25 because its extensions are not built.  Try: gem pristine ffi --version 1.9.25
+Ignoring puma-3.12.0 because its extensions are not built.  Try: gem pristine puma --version 3.12.0
+Ignoring puma-3.9.1 because its extensions are not built.  Try: gem pristine puma --version 3.9.1
+Ignoring sassc-2.0.0 because its extensions are not built.  Try: gem pristine sassc --version 2.0.0
+Ignoring sqlite3-1.3.13 because its extensions are not built.  Try: gem pristine sqlite3 --version 1.3.13
+Ignoring websocket-driver-0.6.5 because its extensions are not built.  Try: gem pristine websocket-driver --version 0.6.5
+checking for ruby/st.h... yes
+checking for st.h... yes
+checking for rb_str_replace() in ruby.h... yes
+checking for rb_intern_str() in ruby.h... yes
+checking for rb_sym2str() in ruby.h... yes
+checking for rb_str_intern() in ruby.h... yes
+checking for rb_block_lambda() in ruby.h... yes
+checking for rb_hash_dup() in ruby.h... yes
+checking for rb_hash_clear() in ruby.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/m_okamoto/toy_app/vendor/extensions/universal-darwin-18/2.3.0/msgpack-1.2.6/mkmf.log
+
+current directory: /Users/m_okamoto/toy_app/vendor/gems/msgpack-1.2.6/ext/msgpack
+make "DESTDIR=" clean
+
+current directory: /Users/m_okamoto/toy_app/vendor/gems/msgpack-1.2.6/ext/msgpack
+make "DESTDIR="
+compiling buffer.c
+compiling buffer_class.c
+compiling extension_value_class.c
+compiling factory_class.c
+compiling packer.c
+compiling packer_class.c
+compiling packer_ext_registry.c
+compiling rbinit.c
+compiling rmem.c
+compiling unpacker.c
+compiling unpacker_class.c
+unpacker_class.c:219:14: warning: unused function 'Unpacker_peek_next_type' [-Wunused-function]
+static VALUE Unpacker_peek_next_type(VALUE self)
+             ^
+1 warning generated.
+compiling unpacker_ext_registry.c
+linking shared-object msgpack/msgpack.bundle
+
+current directory: /Users/m_okamoto/toy_app/vendor/gems/msgpack-1.2.6/ext/msgpack
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20190207-48403-187jpr/msgpack
