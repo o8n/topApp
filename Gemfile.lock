@@ -237,6 +237,7 @@ DEPENDENCIES
   minitest (= 5.10.3)
   minitest-reporters (= 1.1.14)
   msgpack (~> 1.2, >= 1.2.6)
+  nokogiri (~> 1.6, >= 1.6.6.2)
   pg (= 0.20.0)
   puma (= 3.9.1)
   rails (= 5.2.2)
